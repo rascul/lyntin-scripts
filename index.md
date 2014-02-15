@@ -27,4 +27,8 @@ Here's a listing of the various scripts
    Some aliases to make handling of your bag easier.
 
 *  [water](water)  
-    Manage your water container.
+   Manage your water container.
+
+*  [water-maps](water-maps)  
+   Display the ocean and river maps for ships.
+
