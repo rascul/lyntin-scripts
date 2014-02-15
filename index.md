@@ -3,7 +3,8 @@ title: Lyntin Scripts
 layout: default
 ---
 
-This is my collection of Lyntin scripts for use on the Wheel of Time MUD.
+This is my collection of Lyntin scripts for use on the 
+[Wheel of Time MUD](http://wotmud.org).
 
 ## Instructions
 
