@@ -1,5 +1,4 @@
 lyntin-scripts
 =============
 
-this is my collection of scripts for lyntin and wotmud
-
+this is the gh-pages branch
