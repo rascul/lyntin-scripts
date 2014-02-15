@@ -1,0 +1,3 @@
+#alias {es} {exam $$water}
+#alias {fwater} {rem $$water;fill $$water %1;wear $$water}
+#alias {water} {#if {'%1'} {#var {water} {%1}} {rem $$water;drink $$water;drink $$water;wear $$water}}
