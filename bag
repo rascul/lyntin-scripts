@@ -1,0 +1,3 @@
+#alias {bag} {#var bag %1}
+#alias {ep} {exam $$bag}
+#alias {pap} {put all $$bag}
