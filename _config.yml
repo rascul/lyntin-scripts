@@ -1,0 +1,5 @@
+name: "Lyntin Scripts"
+description: "My collection of Lyntin scripts for WoTMUD"
+url: http://rascul.github.io
+baseurl: /lyntin-scripts
+permalink: pretty
