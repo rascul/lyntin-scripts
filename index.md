@@ -26,6 +26,9 @@ Here's a listing of the various scripts
 *  [bag](bag)  
    Some aliases to make handling of your bag easier.
 
+*  [target](target)  
+   A targetting script.
+
 *  [water](water)  
    Manage your water container.
 
