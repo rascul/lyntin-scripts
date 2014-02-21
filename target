@@ -1,0 +1,25 @@
+#alias {target} {#var {target} {%1}}
+#alias {t1} {#var {target1} {%1}}
+#alias {t2} {#var {target2} {%1}}
+#alias {t3} {#var {target3} {%1}}
+#alias {t4} {#var {target4} {%1}}
+#alias {t5} {#var {target5} {%1}}
+#alias {t6} {#var {target6} {%1}}
+#alias {t7} {#var {target7} {%1}}
+#alias {t8} {#var {target8} {%1}}
+#alias {t9} {#var {target9} {%1}}
+#alias {t0} {#var {target0} {%1}}
+
+#alias {kk} {#if {"%1"} {kill %1.$$target} {kill $$target}}
+#alias {k1} {#if {"%1"} {kill %1.$$target1} {kill $$target1};#var {target} {$$target1}}
+#alias {k2} {#if {"%1"} {kill %1.$$target2} {kill $$target2};#var {target} {$$target2}}
+#alias {k3} {#if {"%1"} {kill %1.$$target3} {kill $$target3};#var {target} {$$target3}}
+#alias {k4} {#if {"%1"} {kill %1.$$target4} {kill $$target4};#var {target} {$$target4}}
+#alias {k5} {#if {"%1"} {kill %1.$$target5} {kill $$target5};#var {target} {$$target5}}
+#alias {k6} {#if {"%1"} {kill %1.$$target6} {kill $$target6};#var {target} {$$target6}}
+#alias {k7} {#if {"%1"} {kill %1.$$target7} {kill $$target7};#var {target} {$$target7}}
+#alias {k8} {#if {"%1"} {kill %1.$$target8} {kill $$target8};#var {target} {$$target8}}
+#alias {k9} {#if {"%1"} {kill %1.$$target9} {kill $$target9};#var {target} {$$target9}}
+#alias {k0} {#if {"%1"} {kill %1.$$target0} {kill $$target0};#var {target} {$$target0}}
+
+#alias {targets} {#ifvar target {#showme {target: $$target}};#ifvar target1 {#showme {t1: $$target1}};#ifvar target2 {#showme {t2: $$target2}};#ifvar target3 {#showme {t3: $$target3}};#ifvar target4 {#showme {t4: $$target4}};#ifvar target5 {#showme {t5: $$target5}};#ifvar target6 {#showme {t6: $$target6}};#ifvar target7 {#showme {t7: $$target7}};#ifvar target8 {#showme {t8: $$target8}};#ifvar target9 {#showme {t9: $$target9}};#ifvar target0 {#showme {t0: $$target0}}}
