@@ -1,0 +1,15 @@
+#action {A closed '%1'} {door %1} {doors}
+#action {The %1 is closed.} {door %1} {doors}
+#action {The %1 is obviously open.} {door %1} {doors}
+#action {The %1 is open.} {door %1} {doors}
+#action {The %1 seems to be closed.} {door %1} {doors}
+#action {You skillfully discover a hidden %1.} {door %1} {doors}
+
+#alias {door} {#var door %1 quiet=true}
+
+#alias {cd} {close $$door}
+#alias {kdd} {knock $$door}
+#alias {ld} {lock $$door}
+#alias {od} {open $$door}
+#alias {pd} {pick $$door}
+#alias {ud} {unlock $$door}
