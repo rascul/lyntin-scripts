@@ -26,6 +26,9 @@ Here's a listing of the various scripts
 *  [bag](bag)  
    Some aliases to make handling of your bag easier.
 
+*  [doors](doors)
+   Remembers last door name you found, and aliases to work the door.
+
 *  [target](target)  
    A targetting script.
 
